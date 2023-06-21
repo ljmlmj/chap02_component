@@ -9,6 +9,8 @@ import Props1 from './component/Props1';
 import PropsParent from './component/PropsParent';
 import LoginRendering from './component/LoginRendering';
 import ListExample from './component/ListExample';
+import FormExample from './component/FormExample';
+import FormExample2 from './component/FormExample2';
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
       <LoginRendering />
       <br></br>
       <ListExample />
+      <br></br>
+      <FormExample />
+      <br></br>
+      <FormExample2 />
     </div>
 
   );
