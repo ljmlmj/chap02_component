@@ -1,9 +1,14 @@
 import React from 'react';
 
+// 1. 객체 형태로 전달된 경우
+export default function PropsChild(props){
+    const {oh, park, jung} = props.salaries;
+    const maxSalary = Math.max(oh,park,jung);
+/*
 // 2. 배열 형태로 전달된 경우
 export default function PropsChild({salaries}){
-    const [oh, park, jung] = salaries;
-    let maxSalary = 0;
+    //const [oh, park, jung] = salaries;
+    //let maxSalary = 0;
 
     // 최대값
     for (let key in salaries){
@@ -11,6 +16,7 @@ export default function PropsChild({salaries}){
             maxSalary = salaries[key];
         }
     }
+*/
 
     return (
         <div>

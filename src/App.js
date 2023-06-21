@@ -7,6 +7,8 @@ import UseEffectTest from './component/UseEffectTest';
 import Counter from './component/Counter';
 import Props1 from './component/Props1';
 import PropsParent from './component/PropsParent';
+import LoginRendering from './component/LoginRendering';
+import ListExample from './component/ListExample';
 
 function App() {
   return (
@@ -25,8 +27,12 @@ function App() {
       <Props1 subject="자바"/>
       <br />
       <PropsParent />
+      <br />
+      <LoginRendering />
+      <br></br>
+      <ListExample />
     </div>
-    
+
   );
 }
 
