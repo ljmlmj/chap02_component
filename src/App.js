@@ -26,6 +26,7 @@ function App() {
       <br />
       <PropsParent />
     </div>
+    
   );
 }
 
