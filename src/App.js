@@ -11,6 +11,7 @@ import LoginRendering from './component/LoginRendering';
 import ListExample from './component/ListExample';
 import FormExample from './component/FormExample';
 import FormExample2 from './component/FormExample2';
+import UserForm from './component/UserForm';
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
       <FormExample />
       <br></br>
       <FormExample2 />
+      <br></br>
+      <UserForm />
     </div>
 
   );
